@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div {
+    background: grey;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+div > div {
+    background: black;
+    margin-top: 25vh;
+    margin-left: 25vh;
+    position: absolute;
+    transform-origin: 0% 0%;
+}
+
+#circle {
+    background: rgb(202, 202, 37);
+    z-index: 999;
+    height: 4vh;
+    width: 4vh;
+    margin-top: 23vh;
+    margin-left: 23vh;
+    border-radius: 50%;
+}
+
+#hours {
+    height: 15vh;
+    width: 1.5vh;
+    transform: rotate(120deg);
+}
+
+#minutes {
+    height: 20vh;
+    width: 1.2vh;
+    transform: rotate(70deg);
+}
+
+#seconds {
+    background: rgb(202, 202, 37);
+    height: 23vh;
+    width: 0.7vh;
+    transform: rotate(10deg);
+}
