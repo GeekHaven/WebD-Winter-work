@@ -1,0 +1,33 @@
+body{
+    font-size: 100px;
+    color: rgb(20, 65, 61);
+    
+}
+.time{
+    width: 30%;
+    margin: 0px auto;
+}
+.hour{
+    float: left;
+    border-radius: 20%;
+    background-color: rgb(149, 197, 197);
+    margin: 15px;
+    margin-top: 50%;
+    padding: 15px;
+}
+.minute{
+    border-radius: 20%;
+    float: left;
+    background-color: rgb(149, 197, 197);
+    margin: 15px;
+    padding: 15px;
+    margin-top: 50%;
+}
+.second{
+    border-radius: 20%;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    background-color: rgb(149, 197, 197);
+    margin-top: 50%;
+}
